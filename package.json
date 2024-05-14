@@ -1,0 +1,20 @@
+{
+  "name": "minipack-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "node ./scripts/generate-version"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.1",
+    "cheerio": "^1.0.0-rc.2",
+    "codecov": "^3.0.0",
+    "codesandbox": "^2.2.3",
+    "colorful": "^2.1.0",
+    "commander": "^6.1.0"
+  }
+}
