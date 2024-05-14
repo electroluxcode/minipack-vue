@@ -1,11 +1,12 @@
 <template>
     <div>
-        <tableDemo :visible="false"></tableDemo>
+        <tableMy :visible="true"></tableMy>
     </div>
 </template>
 
 <script setup lang="ts">
-import tableDemo from "../components/table"
+// import tableDemo from "../components/table"
+import {tableMy} from "../es/table/index"
 </script>
 
 <style scoped>

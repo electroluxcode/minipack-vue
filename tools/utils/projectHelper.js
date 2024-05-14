@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
+// 知识点1:node.js 进程执行时的工作目录 
 const cwd = process.cwd();
 
 

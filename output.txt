@@ -1,0 +1,6 @@
+antd-tools run compile
+start compile at  2024-05-14T06:51:25.889Z
+[Parallel] Compile to es...
+[Parallel] Compile to js...
+end compile at  2024-05-14T06:51:30.135Z
+compile time  4.246 s
