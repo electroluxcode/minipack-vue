@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "version": "node ./scripts/generate-version"
+    "version": "node ./scripts/generate-version",
+    "compile": "node tools/cli/run.js co "
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +17,11 @@
     "codesandbox": "^2.2.3",
     "colorful": "^2.1.0",
     "commander": "^6.1.0"
+  },
+  "dependencies": {
+    "glob": "^10.3.15",
+    "gulp": "^5.0.0",
+    "rimraf": "^5.0.7",
+    "vue": "^3.4.27"
   }
 }

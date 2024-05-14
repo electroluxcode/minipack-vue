@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "strict": false,
+      "jsx": "preserve",
+      "moduleResolution": "node"
+    },
+    "include": [
+        "components/**/*.vue",
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "typeRoot"  :[
+        "./types","./node_modules/vue/types"
+    ]
+  }
